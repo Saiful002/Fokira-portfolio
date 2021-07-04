@@ -12,8 +12,9 @@ h1{
 .orange{
     color: orangered;
 }
-section{
+.flexible-part{
     display: flex;
+    margin-bottom: 150px;
 }
 .text{
     width: 50%;
@@ -39,6 +40,9 @@ div img{
 .red{
     color: red;
 }
+.yellow{
+    color:orange;
+}
 .newyork{
     padding-left: 50px;
     width: 100%;
@@ -47,4 +51,38 @@ div img{
     background-image: url(Photos/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiance-section{
+    box-shadow: 10px 10px 20px grey;
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    color: dimgray;
+    border-radius: 10px;
+}
+.last-section{
+    background-image: url(/Photos/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#experiancebox-1{
+    border-top: 10px solid;
+    border-left: 10px solid;
+    border-image: linear-gradient(gold,DeepPink) ;
+    border-image-slice: 100;
+    
+}
+#experiancebox-2{
+    border-top: 10px solid;
+    border-right: 10px solid;
+    border-image: linear-gradient(orangered, blue ) ;
+    border-image-slice: 100;
+    
+}
+.newyork img{
+    width: 100%;
+}
+footer  p{
+    text-align: center;
 }
