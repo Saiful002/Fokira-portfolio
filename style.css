@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto Mono', monospace;
-    
+    margin: 0;
 }
 .padding{
     padding-left: 10%;
@@ -30,4 +30,8 @@ div img{
     border-radius: 5px;
     padding: 10px 30px;
     font-weight: 700;
+}
+.top-section{
+    background-image: url(Photos/top-banner.png);
+    background-repeat: no-repeat;
 }
